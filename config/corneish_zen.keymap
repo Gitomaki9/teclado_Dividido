@@ -84,10 +84,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_DISC 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF    &kp EQUAL     &kp N7        &kp NUMBER_8  &kp N9        &kp NUMBER_0  &kp PG_DN
-                                         &trans        &trans        &trans             &kp INS       &kp DEL       &trans
+&trans  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &kp KP_PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp BSPC
+&trans  &bt BT_CLR_ALL   &bt BT_DISC 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &kp KP_ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH     &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF    &kp EQUAL        &kp N7        &kp NUMBER_8  &kp N9        &kp NUMBER_0  &kp PG_DN
+                                         &trans        &trans        &trans             &kp INS          &kp DEL       &trans
             >;
         };
 
@@ -120,10 +120,10 @@
 
         layer_4 {
             bindings = <
-&kp GRAVE  &trans  &trans  &kp LPAR          &kp RPAR           &kp RA(SLASH)        &kp QUESTION  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &kp LBRC          &kp RBRC           &kp RA(NUMBER_1)     &kp EXCL      &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET    &trans        &trans  &trans  &trans  &trans  &trans
-                           &trans            &trans             &trans               &trans        &trans  &trans
+&kp GRAVE  &kp SINGLE_QUOTE  &kp RA(SINGLE_QUOTE)  &kp LPAR          &kp RPAR           &kp RA(SLASH)        &kp QUESTION  &trans     &trans    &trans    &trans  &trans
+&trans     &trans            &trans                &kp LBRC          &kp RBRC           &kp RA(NUMBER_1)     &kp EXCL      &kp SLASH  &kp PIPE  &kp BSLH  &trans  &trans
+&trans     &trans            &kp MINUS             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET    &trans        &trans     &trans    &trans    &trans  &trans
+                                                   &trans            &trans             &trans               &trans        &trans     &trans
             >;
         };
 
